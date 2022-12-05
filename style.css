@@ -6,10 +6,10 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(12, 41, 77);
 }
 
 #navbar {
-  overflow: hidden;
   background-color: rgb(161, 20, 20);
   position: fixed;
   top: 0;
@@ -39,7 +39,30 @@ h1 {
   text-align: center;
   padding-top: 15rem;
 }
+#welcome-section>p {
+  font-size: 2.6rem;
+  color: rgb(109, 13, 13) !important;
+  text-align: center;
+  margin: 0;
+  line-height: 0%;
+}
 
 @media screen and (max-width: 426px) {
 
+}
+
+#projects {
+  height: 300px;
+  
+  margin-top: 0;
+}
+#projects > h2 {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.project-tile {
+  border: none;
+  
 }
