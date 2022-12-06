@@ -10,7 +10,7 @@ body {
 }
 
 #navbar {
-  background-color: rgb(161, 20, 20);
+  background-color: rgb(107, 21, 21);
   position: fixed;
   top: 0;
   width: 100%;
@@ -26,7 +26,7 @@ body {
 }
 /* #navbar > a:link, */
 #navbar > a:hover {
-  color: blue;
+  color: rgb(6, 6, 194);
 }
 
 #welcome-section {
